@@ -1,1 +1,18 @@
-{ "header": "Online classes", "content": "Welcome to my online - clases page" }
+{
+  "h1": "English, Spanish and Serbian Academy",
+  "content": "Welcome to my online - clases page",
+  "h2": "Choose the best English classes online",
+  "h2_description": "Classes of English, Spanish and Serbian with Ivana are complete, they don't focus only on grammar and vocabulary, they cover useful topics so you can speak with confidence in any situation.",
+  "h3_1": "Personal Guidance",
+  "h3_1_description": "Detailed personal following of your learning progress",
+  "h3_2": "Group classes or one-to-one classes",
+  "h3_2_description": "One-to-one classes or classes in small groups, for individuals and companies",
+  "h3_3": "Methods that work",
+  "h3_3_description": "Teaching methods that give results.",
+  "h3_4": "Classes in small groups",
+  "h3_4_description": "Maximum four students, so you can practice conversation and receive feedback on your learning process",
+  "h3_5": "Make your own timetable",
+  "h3_5_description": "Organize your classes based on your availability. Learn English, Spanish and Serbian online on workdays or weekends.",
+  "h3_6": "All levels",
+  "h3_6_description": "Classes for all levels: from beginners to advanced, preparation for Cambridge exams, business English classes or classes for simply want to learn general English or improve their level."
+}
