@@ -2,7 +2,7 @@
 
 import LanguageChanger from "./LanguageChanger";
 import Logo from "./Logo";
-import Hamburger from "hamburger-react";
+// import Hamburger from "hamburger-react";
 
 export default function Header() {
   return (
@@ -11,9 +11,7 @@ export default function Header() {
         <Logo />
         <LanguageChanger />
       </div>
-      <div>
-        <Hamburger />
-      </div>
+      <div>{/* <Hamburger /> */}</div>
     </header>
   );
 }
