@@ -12,12 +12,15 @@ export default async function Home({ params: { locale } }) {
       namespaces={["home"]}
     >
       <div>
-        <h1>{t("header")}</h1>
-
-        <p>{t("content")}</p>
-        <Header />
+        <Hero />
       </div>
-      <Hero />
     </TranslationsProvider>
   );
+}
+
+{
+  /* <h1>{t("header")}</h1>
+
+<p>{t("content")}</p>
+<Header /> */
 }

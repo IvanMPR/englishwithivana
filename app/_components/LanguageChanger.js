@@ -4,6 +4,10 @@ import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 import { useTranslation } from "react-i18next";
 import i18nConfig from "../i18n";
+import Image from "next/image";
+
+import spanishFlag from "/public/flags/es.jpg";
+import ukFlag from "/public/flags/gb.jpg";
 
 export default function LanguageChanger() {
   const { i18n } = useTranslation();
@@ -11,8 +15,8 @@ export default function LanguageChanger() {
   const router = useRouter();
   const currentPathname = usePathname();
 
-  const handleChange = e => {
-    const newLocale = e.target.value;
+  const handleChange = locale => {
+    const newLocale = locale;
 
     // set cookie for next-i18n-router
     const days = 30;
@@ -37,10 +41,27 @@ export default function LanguageChanger() {
   };
 
   return (
-    <select onChange={handleChange} value={currentLocale}>
-      <option value='en'>English</option>
-      <option value='es'>Spanish</option>
-      {/* <option value="fr">French</option> */}
-    </select>
+    <div className='flex space-x-2'>
+      <div className=' w-5'>
+        <span title='English'>
+          <Image
+            src={ukFlag}
+            alt='English'
+            className='cursor-pointer'
+            onClick={() => handleChange("en")}
+          />
+        </span>
+      </div>
+      <div className='w-5'>
+        <span title='Español'>
+          <Image
+            src={spanishFlag}
+            alt='Spanish'
+            className='cursor-pointer'
+            onClick={() => handleChange("es")}
+          />
+        </span>
+      </div>
+    </div>
   );
 }
