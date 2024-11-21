@@ -41,8 +41,8 @@ export default function LanguageChanger() {
   };
 
   return (
-    <div className='flex space-x-2'>
-      <div className=' w-5'>
+    <div className='flex space-x-3'>
+      <div className=' w-6'>
         <span title='English'>
           <Image
             src={ukFlag}
@@ -52,7 +52,7 @@ export default function LanguageChanger() {
           />
         </span>
       </div>
-      <div className='w-5'>
+      <div className='w-6 '>
         <span title='Español'>
           <Image
             src={spanishFlag}

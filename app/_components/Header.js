@@ -7,10 +7,16 @@ import Logo from "./Logo";
 
 export default function Header() {
   return (
-    <header className=' flex items-center justify-between w-full max-w-6xl m-auto pt-5'>
-      <Logo />
-      <Navigation />
-      <LanguageChanger />
+    <header className=' flex items-end justify-between w-full m-auto pt-5 px-5'>
+      <div className='flex items-end'>
+        <div className='mr-10'>
+          <Logo />
+        </div>
+        <Navigation />
+      </div>
+      <div>
+        <LanguageChanger />
+      </div>
     </header>
   );
 }

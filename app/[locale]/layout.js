@@ -15,7 +15,7 @@ const OpenSans = Open_Sans({
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={`${OpenSans.className} bg-slate-500`}>{children}</body>
+      <body className={`${OpenSans.className}`}>{children}</body>
     </html>
   );
 }
