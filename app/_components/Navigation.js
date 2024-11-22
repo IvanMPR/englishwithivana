@@ -134,9 +134,9 @@ export default function Navigation() {
           </li>
           <li className='text-white text-sm'>
             <Link
-              href={"/interpreting-translation"}
+              href={"/interpreting-translations"}
               className={`${
-                pathname === "/interpreting-translation"
+                pathname === "/interpreting-translations"
                   ? "border-b-4 border-rose-500"
                   : ""
               }`}

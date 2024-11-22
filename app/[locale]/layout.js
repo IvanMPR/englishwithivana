@@ -1,5 +1,5 @@
 import "./globals.css";
-// import Header from "../_components/Header";
+import Header from "../_components/Header";
 export const metadata = {
   title: { template: "Ivana / %s", default: "Welcome / Ivana Miceta" },
   description: "Home page of English, Spanish and Serban teacher Ivana Miceta",
@@ -15,7 +15,10 @@ const OpenSans = Open_Sans({
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={`${OpenSans.className}`}>{children}</body>
+      <body className={`${OpenSans.className}`}>
+        {/* <Header /> */}
+        {children}
+      </body>
     </html>
   );
 }
