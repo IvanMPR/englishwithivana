@@ -100,11 +100,13 @@ export default function Navigation() {
     >
       <nav>
         <ul className='flex'>
-          <li className='mr-5 text-white text-sm italic hover:not-italic transition duration-300 ease-in-out'>
+          <li className='mr-5 text-white text-sm duration-300 ease-in-out'>
             <Link
               href={"/"}
               className={`pb-2 ${
-                pathname === "/" ? "border-b-4 border-rose-500" : ""
+                pathname === "/" || pathname === "/es"
+                  ? "border-b-4 border-rose-500"
+                  : ""
               }`}
             >
               {translations.t("homeLink")}
@@ -114,7 +116,9 @@ export default function Navigation() {
             <Link
               href={"/about-ivana"}
               className={`${
-                pathname === "/about-ivana" ? "border-b-4 border-rose-500" : ""
+                pathname === "/about-ivana" || pathname === "/sobre-ivana"
+                  ? "border-b-4 border-rose-500"
+                  : ""
               }`}
             >
               {translations.t("aboutLink")}

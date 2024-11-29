@@ -9,7 +9,7 @@ import ContactButton from "./ContactButton";
 
 export default function Header() {
   return (
-    <header className=' flex items-end justify-between w-full m-auto pt-5 px-5 bg-slate-600'>
+    <header className=' flex items-end justify-between w-full m-auto pt-5 px-5 pb-3 bg-slate-500'>
       <div className='flex items-end'>
         <div className='mr-10'>
           <Logo />

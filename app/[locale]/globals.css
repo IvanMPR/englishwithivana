@@ -42,4 +42,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .clip-polygon {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
 }
