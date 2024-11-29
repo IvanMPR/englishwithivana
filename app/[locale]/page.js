@@ -12,6 +12,7 @@ export default async function Home({ params: { locale } }) {
       namespaces={["home"]}
     >
       <div>
+        {/* <Header /> */}
         <Hero />
       </div>
     </TranslationsProvider>
