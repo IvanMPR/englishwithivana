@@ -27,7 +27,7 @@ export default function ContactButton() {
       namespaces={["navigation"]}
     >
       <div className=' w-24'>
-        <button className='w-full text-sm rounded text-white bg-rose-500 px-3 py-[.5em] hover:bg-rose-600'>
+        <button className='w-full text-sm rounded text-white bg-primaryColor px-3 py-[.5em] hover:bg-rose-600'>
           {translations.t("contactLink")}
         </button>
       </div>

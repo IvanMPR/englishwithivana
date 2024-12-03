@@ -105,7 +105,7 @@ export default function Navigation() {
               href={"/"}
               className={`pb-2 ${
                 pathname === "/" || pathname === "/es"
-                  ? "border-b-4 border-rose-500"
+                  ? "border-b-4 border-primaryColor"
                   : ""
               }`}
             >
@@ -117,7 +117,7 @@ export default function Navigation() {
               href={"/about-ivana"}
               className={`${
                 pathname === "/about-ivana" || pathname === "/sobre-ivana"
-                  ? "border-b-4 border-rose-500"
+                  ? "border-b-4 border-primaryColor"
                   : ""
               }`}
             >
@@ -129,7 +129,7 @@ export default function Navigation() {
               href={"/online-classes"}
               className={`${
                 pathname === "/online-classes"
-                  ? "border-b-4 border-rose-500"
+                  ? "border-b-4 border-primaryColor"
                   : ""
               }`}
             >
@@ -141,7 +141,7 @@ export default function Navigation() {
               href={"/interpreting-translations"}
               className={`${
                 pathname === "/interpreting-translations"
-                  ? "border-b-4 border-rose-500"
+                  ? "border-b-4 border-primaryColor"
                   : ""
               }`}
             >

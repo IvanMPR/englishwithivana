@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 :root {
+  /* ********************************* */
+
+  /* IVANA'S COLOR PRIMARY e21e51*/
+  /* IVANA'S dark hero shade 322e51*/
+  /* IVANA'S dark footer 040037*/
+  /* IVANA'S dark text 032075*/
   /* --background: #ffffff;
   --foreground: #171717; */
   /* ********************************* */
@@ -11,9 +17,11 @@
   --color-bg-offset: #e0e0e0;
   --color-text: #373a3c;
   --color-text-offset: #818a91;
-  --color-primary: #ff335f;
-  --color-primary-offset: #ff1447;
-  --color-secondary: #43a9a3;
+  /* --color-primary: #ff335f; */
+  --color-primary: #e21e51;
+  --color-dark-filter: #322e51;
+  /* --color-primary-offset: #ff1447;
+  --color-secondary: #43a9a3; */
 }
 
 @media (prefers-color-scheme: dark) {
