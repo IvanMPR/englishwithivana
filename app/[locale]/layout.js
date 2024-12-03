@@ -24,7 +24,7 @@ export default async function RootLayout({ params: { locale }, children }) {
       namespaces={["home"]}
     >
       <html lang='en'>
-        <body className={`${OpenSans.className}`}>
+        <body className={`relative ${OpenSans.className}`}>
           <Header />
           {children}
           {/* <Footer /> */}

@@ -12,6 +12,7 @@ module.exports = {
         // foreground: "var(--foreground)",
         primaryColor: "var(--color-primary)",
         filterColor: "var(--color-dark-filter)",
+        darkColor: "var(--color-dark)",
       },
     },
   },
