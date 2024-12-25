@@ -1,9 +1,10 @@
-// "use client";
+"use client";
 
 // import Link from "next/link";
 // import { usePathname } from "next/navigation";
 // import TranslationsProvider from "../_components/TranslationsProvider";
 // import initTranslations from "../i18n";
+import Hamburger from "hamburger-react";
 
 // export default  function Navigation({ params: { locale } }) {
 //   const pathname = usePathname();
@@ -66,7 +67,7 @@
 //     </TranslationsProvider>
 //   );
 // }
-"use client";
+// ("use client");
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -98,7 +99,7 @@ export default function Navigation() {
       locale={locale}
       namespaces={["navigation"]}
     >
-      <nav>
+      <nav className='hidden md:block'>
         <ul className='flex'>
           <li className='mr-5 text-white text-sm duration-300 ease-in-out'>
             <Link
@@ -150,6 +151,9 @@ export default function Navigation() {
           </li>
         </ul>
       </nav>
+      <div className='block md:hidden'>
+        <Hamburger size={26} color='#fff' label='Show menu' />
+      </div>
     </TranslationsProvider>
   );
 }

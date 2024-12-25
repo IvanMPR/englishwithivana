@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className='absolute top-0 z-30 flex items-end justify-between w-full m-auto pt-5 px-5 pb-3'>
       <div className='flex items-end'>
-        <div className='mr-10'>
+        <div className='mr-5 md:mr-10'>
           <Logo />
         </div>
         <Navigation />

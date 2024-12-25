@@ -13,7 +13,7 @@ export default async function Home({ params: { locale } }) {
     >
       <div>
         {/* <Header /> */}
-        <Hero />
+        <Hero backgroundImage='/home-bgd.jpg' />
       </div>
     </TranslationsProvider>
   );
