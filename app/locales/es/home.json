@@ -1,1 +1,6 @@
-{ "header": "Inicio", "content": "Página de inicio" }
+{
+  "h1": "Classes Online y Servicios de Traducción e Interpretación",
+  "h1_extended": "Clases Online de Inglés, Español y Serbio y Servicios de Traducción e Interpretación",
+  "button_text": "Ver todas mis clases",
+  "button_why": "¿Por qué yo?"
+}
