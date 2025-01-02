@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
 export default function Hero({ backgroundImage }) {
@@ -21,9 +22,12 @@ export default function Hero({ backgroundImage }) {
           </span>
         </h1>
         <div className='w-full mt-10 px-5 flex items-start '>
-          <button className=' text-sm rounded text-white bg-primaryColor px-3 py-[.5em]'>
+          <Link
+            href='/about-ivana'
+            className='relative text-sm rounded text-white bg-primaryColor px-3 py-[.5em] cursor-pointer'
+          >
             {t("button_text", { ns: "home" })}
-          </button>
+          </Link>
           <div className='ml-8 pt-1'>
             <p className=' text-white'>
               &#x2794; {t("button_why", { ns: "home" })}

@@ -1,6 +1,5 @@
 import TranslationsProvider from "../_components/TranslationsProvider";
 import initTranslations from "../i18n";
-import Header from "../_components/Header";
 import Hero from "../_components/Hero";
 
 export default async function Home({ params: { locale } }) {
@@ -11,17 +10,7 @@ export default async function Home({ params: { locale } }) {
       locale={locale}
       namespaces={["home"]}
     >
-      <div>
-        {/* <Header /> */}
-        <Hero backgroundImage='/home-bg-image.jpg' />
-      </div>
+      <Hero backgroundImage='/home-bg-image.jpg' />
     </TranslationsProvider>
   );
-}
-
-{
-  /* <h1>{t("header")}</h1>
-
-<p>{t("content")}</p>
-<Header /> */
 }

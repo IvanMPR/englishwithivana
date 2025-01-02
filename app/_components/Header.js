@@ -5,8 +5,6 @@ import LanguageChanger from "./LanguageChanger";
 import Logo from "./Logo";
 import ContactButton from "./ContactButton";
 
-// import Hamburger from "hamburger-react";
-
 export default function Header() {
   return (
     <header className='absolute top-0 z-30 flex items-end justify-between w-full m-auto pt-5 px-5 pb-3'>
