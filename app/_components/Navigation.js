@@ -101,7 +101,7 @@ export default function Navigation() {
     >
       <nav className='hidden md:block'>
         <ul className='flex'>
-          <li className='mr-5 text-white text-sm duration-300 ease-in-out'>
+          <li className='mr-5 text-textColor text-sm duration-300 ease-in-out'>
             <Link
               href={"/"}
               className={`pb-2 ${
@@ -113,7 +113,7 @@ export default function Navigation() {
               {translations.t("homeLink")}
             </Link>
           </li>
-          <li className='mr-5 text-white text-sm'>
+          <li className='mr-5 text-textColor text-sm'>
             <Link
               href={"/about-ivana"}
               className={`${
@@ -125,7 +125,7 @@ export default function Navigation() {
               {translations.t("aboutLink")}
             </Link>
           </li>
-          <li className='mr-5 text-white text-sm'>
+          <li className='mr-5 text-textColor text-sm'>
             <Link
               href={"/online-classes"}
               className={`${
@@ -137,7 +137,7 @@ export default function Navigation() {
               {translations.t("classesLink")}
             </Link>
           </li>
-          <li className='text-white text-sm'>
+          <li className='text-textColor text-sm'>
             <Link
               href={"/interpreting-translations"}
               className={`${
@@ -151,8 +151,8 @@ export default function Navigation() {
           </li>
         </ul>
       </nav>
-      <div className='block md:hidden'>
-        <Hamburger size={26} color='#fff' label='Show menu' />
+      <div className='flex relative top-2 md:hidden'>
+        <Hamburger size={26} color='#ffffff' label='Show menu' />
       </div>
     </TranslationsProvider>
   );

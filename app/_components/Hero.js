@@ -11,9 +11,9 @@ export default function Hero({ backgroundImage }) {
       className='flex bg-cover bg-center h-[45rem] bg-no-repeat clip-polygon hero-background '
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div className='  w-1/2 m-auto flex flex-col items-center justify-center '>
-        <h1 className=' text-white text-4xl font-bold px-5 leading-tight'>
-          <span className='block uppercase text-sm font-normal text-white mb-5'>
+      <div className=' w-full md:w-1/2 m-auto flex flex-col items-center justify-center '>
+        <h1 className=' text-textColor text-4xl md:font-bold px-5 leading-tight'>
+          <span className='block uppercase text-sm font-normal text-textColor mb-5'>
             {t("ivana miceta", { ns: "common" })}
           </span>{" "}
           {t("h1", { ns: "home" })}
@@ -23,15 +23,18 @@ export default function Hero({ backgroundImage }) {
         </h1>
         <div className='w-full mt-10 px-5 flex items-start '>
           <Link
-            href='/about-ivana'
-            className='relative text-sm rounded text-white bg-primaryColor px-3 py-[.5em] cursor-pointer'
+            href='/online-classes'
+            className='relative text-sm rounded text-textColor bg-primaryColor px-3 py-[.5em] cursor-pointer'
           >
             {t("button_text", { ns: "home" })}
           </Link>
           <div className='ml-8 pt-1'>
-            <p className=' text-white'>
+            <Link
+              className='relative cursor-pointer text-textColor'
+              href='/about-ivana'
+            >
               &#x2794; {t("button_why", { ns: "home" })}
-            </p>
+            </Link>
           </div>
         </div>
       </div>

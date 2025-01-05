@@ -41,8 +41,8 @@ export default function LanguageChanger() {
   };
 
   return (
-    <div className='flex space-x-3'>
-      <div className=' w-6'>
+    <div className='flex space-x-3 pb-1 md:pb-0'>
+      <div className=' w-6 '>
         <span title='English'>
           <Image
             src={ukFlag}

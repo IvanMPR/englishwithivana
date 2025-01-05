@@ -10,7 +10,7 @@ export default async function Home({ params: { locale } }) {
       locale={locale}
       namespaces={["home"]}
     >
-      <Hero backgroundImage='/home-bg-image.jpg' />
+      <Hero backgroundImage='/home-bg-image-90.jpg' />
     </TranslationsProvider>
   );
 }
